@@ -1,3 +1,3 @@
-export function hello(name: string): string {
+export function useHello(name: string): string {
   return `Olá, ${name}!`;
 }
