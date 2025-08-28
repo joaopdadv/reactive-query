@@ -11,8 +11,8 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "outDir": "dist",
-    "jsx": "react-jsx",
-    "types": ["vitest/globals", "node"]
+    "types": ["vitest/globals", "node"],
+    "jsx": "react-jsx"
   },
-  "include": ["src", "src/**/*.test.ts", "src/**/*.test.tsx"]
+  "include": ["src", "src/**/*.test.ts", "src/**/*.test.tsx", "vitest.setup.ts"]
 }
