@@ -5,8 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run -w packages/lib build",
-    "dev": "npm run -w packages/lib dev",
-    "test": "npm run -w packages/lib test"
+    "build-core": "npm run -w packages/core build",
+    "dev-core": "npm run -w packages/core dev",
+    "test-core": "npm run -w packages/core test"
   }
 }
